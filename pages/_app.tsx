@@ -3,6 +3,9 @@ import { FC } from 'react';
 import { Toaster } from 'react-hot-toast';
 import "../components/bufferFill";
 import { Header } from '../components/Header';
+// import { Footer } from '../components/Footer';
+import Footer from '../components/Footer';
+
 import { Providers } from '../components/Providers';
 
 // Use require instead of import since order matters
@@ -22,6 +25,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
             width: "420px",
           }}
         />
+        <Footer />
     </Providers>
   );
 };
