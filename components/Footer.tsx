@@ -15,7 +15,7 @@ const Footer: React.FC = () => (
       &copy; {new Date().getFullYear()} Tok-Sol
     </Text>
     <Text mt={2}>
-      Email: <Link color="teal.200" href="mailto:pablo@tocsol.io">pablo@tocsol.io</Link>
+      Email: <Link color="teal.200" href="mailto:toksol@toksol.io">toksol@toksol.io</Link>
     </Text>
 
     <Text mt={4} fontSize="sm">
