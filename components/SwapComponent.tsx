@@ -37,7 +37,7 @@ export function SwapComponent() {
   };
 
   const handleButton3Click = () => {
-    const email = "pablo@yoksol.io";
+    const email = "pablo@toksol.io";
     const subject = "Hello";
     const body = "I'm interested in your product. Please send me more information.";
 
