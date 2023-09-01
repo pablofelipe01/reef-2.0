@@ -93,7 +93,7 @@ export function SwapComponent() {
 />
 
             <Button style={{ ...buttonStyles, marginTop: "10px" }} onClick={handleButton1Click}>White Paper</Button>
-            <Button style={buttonStyles} onClick={handleButton3Click}>E-mail Us</Button>
+            {/* <Button style={buttonStyles} onClick={handleButton3Click}>E-mail Us</Button> */}
             <Button style={buttonStyles} onClick={handleButton5Click}>Call Us</Button>
             <Button style={buttonStyles} onClick={handleButton4Click}>Web</Button>
             <Button style={buttonStyles} onClick={handleButton2Click}>DECK</Button>
