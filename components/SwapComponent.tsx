@@ -75,7 +75,7 @@ export function SwapComponent() {
           <>
             <Lbc id={id} />
             <Button style={{ ...buttonStyles, marginTop: "10px" }} onClick={handleButton1Click}>White Paper</Button>
-            <Button style={buttonStyles} onClick={handleButton3Click}>Get in Touch Now</Button>
+            {/* <Button style={buttonStyles} onClick={handleButton3Click}>Get in Touch Now</Button> */}
             <Button style={buttonStyles} onClick={handleButton5Click}>Call Us</Button>
             <Button style={buttonStyles} onClick={handleButton4Click}>Digital Oasis</Button>
             <Button style={buttonStyles} onClick={handleButton2Click}>DECK</Button>
