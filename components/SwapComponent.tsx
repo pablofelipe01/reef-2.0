@@ -5,6 +5,7 @@ import { useWalletModal } from "@solana/wallet-adapter-react-ui";
 import { Lbc } from "@strata-foundation/marketplace-ui";
 import zoom from '../components/images/zoom.gif'
 
+
 export function SwapComponent() {
   const { id: idRaw } = useVariables();
   const { publicKey } = useWallet();
