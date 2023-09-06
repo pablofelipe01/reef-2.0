@@ -68,7 +68,7 @@ export const Header: React.FC = () => (
     </a> */}
 
     <img
-      src="https://i.imgur.com/jjll4wf.png"
+      src="https://i.imgur.com/pN6CQaq.png"
       alt="Sol"
       style={{ width: "350px", margin: "10px 0" }} // Add margin for spacing
     />
