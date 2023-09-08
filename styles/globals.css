@@ -87,12 +87,16 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
+  background-image: url('/bg.jpg'); /* This line is for the background image */
+  background-size: cover; /* This line makes sure the image covers the entire viewport */
+  background-repeat: no-repeat; /* This line makes sure the image doesn't repeat */
+  background-position: center center; /* This line positions the image in the center of the viewport */
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    ),
+    url('/bg.jpg'); /* Combined background-image with gradient */
 }
 
 a {
