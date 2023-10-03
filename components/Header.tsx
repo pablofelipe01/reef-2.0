@@ -75,8 +75,8 @@ export const Header: React.FC = () => (
 
     <WalletMultiButton
       style={{
-        width: "100px",
-        height: "100px",
+        width: "200px",
+        height: "200px",
         padding: "10px",
         background: "white",
         display: "flex",
@@ -86,7 +86,7 @@ export const Header: React.FC = () => (
       }}
     >
       <img
-        src="https://i.imgur.com/d4TTFAz.png"
+        src="https://i.imgur.com/bnp6XMz.png"
         alt="Your logo"
         style={{ maxWidth: "100%", maxHeight: "100%" }}
       />
