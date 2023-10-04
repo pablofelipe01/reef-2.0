@@ -47,11 +47,15 @@ export function SwapComponent() {
     window.location.href = mailtoLink;
   };
 
-  const handleButton5Click = () => {
-    const phoneNumber = "+573024878295";
-    window.open(`tel:${phoneNumber}`);
-  };
+  // const handleButton5Click = () => {
+  //   const phoneNumber = "+573024878295";
+  //   window.open(`tel:${phoneNumber}`);
+  // };
 
+  const handleButton5Click = () => {
+    // Logic to handle button 4 click
+    window.open("https://www.youtube.com/playlist?list=PL42rPG0c72CfONUxJWYAqT63UmSc-BI8E", "_blank");
+  };
   const handleButton4Click = () => {
     // Logic to handle button 4 click
     window.open("https://www.toksol.io/", "_blank");
@@ -77,8 +81,8 @@ export function SwapComponent() {
             <Lbc id={id} />
             <Button style={{ ...buttonStyles, marginTop: "10px" }} onClick={handleButton1Click}>White Paper</Button>
             {/* <Button style={buttonStyles} onClick={handleButton3Click}>Get in Touch Now</Button> */}
-            <Button style={buttonStyles} onClick={handleButton5Click}>Call Us</Button>
-            <Button style={buttonStyles} onClick={handleButton4Click}>Digital Oasis</Button>
+            <Button style={buttonStyles} onClick={handleButton5Click}>Video Tutorials</Button>
+            <Button style={buttonStyles} onClick={handleButton4Click}>Developers</Button>
             <Button style={buttonStyles} onClick={handleButton2Click}>DECK</Button>
             <Button style={buttonStyles} onClick={handleButton6Click}>BUY USDC</Button>
           </>
@@ -95,8 +99,8 @@ export function SwapComponent() {
 
             <Button style={{ ...buttonStyles, marginTop: "10px" }} onClick={handleButton1Click}>White Paper</Button>
             {/* <Button style={buttonStyles} onClick={handleButton3Click}>E-mail Us</Button> */}
-            <Button style={buttonStyles} onClick={handleButton5Click}>Call Us</Button>
-            <Button style={buttonStyles} onClick={handleButton4Click}>Web</Button>
+            <Button style={buttonStyles} onClick={handleButton5Click}>Video Tutorials</Button>
+            <Button style={buttonStyles} onClick={handleButton4Click}>Developers</Button>
             <Button style={buttonStyles} onClick={handleButton2Click}>DECK</Button>
             <Button style={buttonStyles} onClick={handleButton6Click}>Buy USDC</Button>
           </>
