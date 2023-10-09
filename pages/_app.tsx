@@ -1,4 +1,5 @@
 import { AppProps } from 'next/app';
+import { Analytics } from '@vercel/analytics/react';
 import { FC } from 'react';
 import { Toaster } from 'react-hot-toast';
 import "../components/bufferFill";
@@ -26,6 +27,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
           }}
         />
         <Footer />
+        <Analytics />
     </Providers>
   );
 };
