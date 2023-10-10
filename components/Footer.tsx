@@ -26,7 +26,7 @@ const Footer: React.FC = () => (
     <Stack direction="row" mt={6} spacing={4}>
       <IconButton
         as={Link}
-        href="https://github.com/pablofelipe01"
+        href="https://github.com/pablofelipe01/reef-2.0"
         target="_blank"
         aria-label="GitHub"
         icon={<FaGithub />}
