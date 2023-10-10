@@ -34,7 +34,7 @@ export function SwapComponent() {
 
   const handleButton2Click = () => {
     // Logic to handle button 2 click
-    window.open("https://pin.ski/46dW8By", "_blank");
+    window.open("https://pin.ski/3LU68rk", "_blank");
   };
 
   const handleButton3Click = () => {
