@@ -4,6 +4,8 @@ import { useConnection, useWallet } from '@solana/wallet-adapter-react';
 import { useWalletModal } from "@solana/wallet-adapter-react-ui";
 import { Lbc } from "@strata-foundation/marketplace-ui";
 import zoom from '../components/images/zoom.gif'
+import img1 from '../components/images/img1.png'
+import logo from '../components/images/logo.png'
 
 
 export function SwapComponent() {
@@ -81,14 +83,14 @@ export function SwapComponent() {
             <Lbc id={id} />
             <Button style={{ ...buttonStyles, marginTop: "10px" }} onClick={handleButton1Click}>White Paper</Button>
             {/* <Button style={buttonStyles} onClick={handleButton3Click}>Get in Touch Now</Button> */}
-            <Button style={buttonStyles} onClick={handleButton5Click}>Video Tutorials</Button>
+            {/* <Button style={buttonStyles} onClick={handleButton5Click}>Video Tutorials</Button> */}
             <Button style={buttonStyles} onClick={handleButton4Click}>Developers</Button>
-            <Button style={buttonStyles} onClick={handleButton2Click}>DECK</Button>
+            {/* <Button style={buttonStyles} onClick={handleButton2Click}>DECK</Button> */}
             <Button style={buttonStyles} onClick={handleButton6Click}>BUY USDC</Button>
           </>
         ) : (
           <>
-            <Image src={zoom.src} alt="Token" 
+            <Image src={logo.src} alt="Token" 
   style={{
     paddingBottom: "20px",
     boxShadow: "0px 2px 4px rgba(0, 0, 0, 0.3)",
@@ -99,9 +101,9 @@ export function SwapComponent() {
 
             <Button style={{ ...buttonStyles, marginTop: "10px" }} onClick={handleButton1Click}>White Paper</Button>
             {/* <Button style={buttonStyles} onClick={handleButton3Click}>E-mail Us</Button> */}
-            <Button style={buttonStyles} onClick={handleButton5Click}>Video Tutorials</Button>
+            {/* <Button style={buttonStyles} onClick={handleButton5Click}>Video Tutorials</Button> */}
             <Button style={buttonStyles} onClick={handleButton4Click}>Developers</Button>
-            <Button style={buttonStyles} onClick={handleButton2Click}>DECK</Button>
+            {/* <Button style={buttonStyles} onClick={handleButton2Click}>DECK</Button> */}
             <Button style={buttonStyles} onClick={handleButton6Click}>Buy USDC</Button>
           </>
         )}

@@ -1,4 +1,5 @@
 import React from "react";
+import img1 from '../components/images/img1.png'
 import {
   Box,
   Center,
@@ -68,7 +69,7 @@ export const Header: React.FC = () => (
     </a> */}
 
     <img
-      src="https://i.imgur.com/pN6CQaq.png"
+      src={img1.src} 
       alt="Sol"
       style={{ width: "350px", margin: "10px 0" }} // Add margin for spacing
     />
