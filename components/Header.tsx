@@ -1,5 +1,6 @@
 import React from "react";
 import img1 from '../components/images/img1.png'
+import img2 from '../components/images/img2.png'
 import {
   Box,
   Center,
@@ -68,11 +69,11 @@ export const Header: React.FC = () => (
       />
     </a> */}
 
-    <img
-      src={img1.src} 
+    {/* <img
+      src={img2.src} 
       alt="Sol"
       style={{ width: "350px", margin: "10px 0" }} // Add margin for spacing
-    />
+    /> */}
 
     <WalletMultiButton
       style={{
@@ -87,7 +88,7 @@ export const Header: React.FC = () => (
       }}
     >
       <img
-        src="https://i.imgur.com/bnp6XMz.png"
+        src="/cnt.png"
         alt="Your logo"
         style={{ maxWidth: "100%", maxHeight: "100%" }}
       />

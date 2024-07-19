@@ -64,7 +64,7 @@ export function SwapComponent() {
   };
   const handleButton6Click = () => {
     // Logic to handle button 4 click
-    window.open("https://onramp.pokoapp.xyz/?apiKey=734c4a23-e256-46c4-b917-974f759a6aee&userId=poko_prod&cryptoList=SOL-solana,USDC-solana", "_blank");
+    window.open("https://global.transak.com/", "_blank");
   };
 
   return (
